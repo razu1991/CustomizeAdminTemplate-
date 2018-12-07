@@ -1,0 +1,39 @@
+.sys-settings table tbody tr td{
+	font-size: 16px;
+}
+.sys-info{
+	font-size: 18px;
+	text-transform: uppercase;
+	color:#fff;
+	font-weight: 600;
+}
+.box-title{
+	color:#fff;
+}
+.mark{
+	color:red;
+}
+/***
+* Override has-error css for validation
+**/
+.form-group.has-error .form-control, .form-group.has-error .input-group-addon {
+    border-color: #A94442;
+    box-shadow: none;
+}
+.form-group.has-error label {
+    color: #A94442;
+}
+
+#companyDetailsTitle{
+	font-size: 14px;
+	margin-bottom: -20px;
+}
+
+/***
+* customize form group css
+**/
+.form-group {
+
+    margin-bottom: 2px;
+
+}
